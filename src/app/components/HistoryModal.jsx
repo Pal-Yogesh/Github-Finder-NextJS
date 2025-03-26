@@ -47,6 +47,10 @@ const HistoryModal = ({ isOpen, onClose }) => {
 			<ModalContent bg={"gray.900"}>
 				<ModalHeader>Search History</ModalHeader>
 				<ModalBody>
+
+
+
+					
 					<Text>Users you searched for:</Text>
 					<VStack gap={4} maxHeight={300} overflowY={"auto"} my={4}>
 						{searchHistory.length === 0 && (
